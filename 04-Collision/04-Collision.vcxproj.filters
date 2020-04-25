@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{63d742bd-4e0e-4e12-ab0a-489a6389cf1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects">
+      <UniqueIdentifier>{ba9b54fb-df34-4fab-83ff-c4f6ff8b094a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects\player">
+      <UniqueIdentifier>{22acf1f0-68bf-49ea-af7c-095d20f208cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects\items">
+      <UniqueIdentifier>{9ce3bbd2-1529-4b42-99e5-48ef0ba8e1da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects\Weapons">
+      <UniqueIdentifier>{16fa796a-5ffb-47e8-930d-596619b5e570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Helpers">
+      <UniqueIdentifier>{cf02316f-a6d8-43e4-ba88-bc6d3078a4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Maps">
+      <UniqueIdentifier>{74bfa52d-c52c-44f7-994b-c2d2564c0628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects\ground">
+      <UniqueIdentifier>{f26af7b1-9afd-47d5-b6e5-5c059e936a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common">
+      <UniqueIdentifier>{f5eee83f-254b-4359-9f6a-c7bc2acbea16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects\effects">
+      <UniqueIdentifier>{6eaa22c4-2d2f-4aa0-a330-3053df5cbe4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Simon.h">
+      <Filter>src\GameObjects\player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>src\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SObject.h">
+      <Filter>src\GameObjects\items</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>src\GameObjects\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>src\GameObjects\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>src\GameObjects\ground</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadResource.h">
+      <Filter>src\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Contands.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>src\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>src\GameObjects\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMat.h">
+      <Filter>src\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>src\GameObjects\ground</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>src\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Int1D_Customize.h">
+      <Filter>src\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>src\Maps</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprites.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simon.cpp">
+      <Filter>src\GameObjects\player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>src\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SObject.cpp">
+      <Filter>src\GameObjects\items</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>src\GameObjects\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>src\GameObjects\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>src\GameObjects\ground</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadResource.cpp">
+      <Filter>src\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>src\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>src\GameObjects\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMat.cpp">
+      <Filter>src\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Flag.cpp">
+      <Filter>src\GameObjects\ground</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>src\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Int1D_Customize.cpp">
+      <Filter>src\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>src\Maps</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
